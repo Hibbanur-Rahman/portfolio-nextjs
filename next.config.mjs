@@ -2,7 +2,7 @@
 const nextConfig = {
     output:"export",
     basePath:'/portfolio-nextjs',
-    assetPrefix: 'https://github.com/Hibbanur-Rahman/portfolio-nextjs/',
+    assetPrefix: 'https://github.com/Hibbanur-Rahman/portfolio-nextjs/tree/gh-pages/',
     images:{
         unoptimized:true,
     }
