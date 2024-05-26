@@ -1,6 +1,6 @@
 {
   "name": "portfolio-nextjs",
-  "homepage":"http://Hibbanur-Rahman.me/portfolio-nextjs/",
+  "homepage": "http://Hibbanur-Rahman.me/portfolio-nextjs/",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -13,7 +13,8 @@
   "dependencies": {
     "next": "14.2.3",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "sass": "^1.77.2"
   },
   "devDependencies": {
     "@types/node": "^20",
