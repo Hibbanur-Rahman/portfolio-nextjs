@@ -1,5 +1,6 @@
 {
   "name": "portfolio-nextjs",
+  "homepage":"http://Hibbanur-Rahman.me/portfolio-nextjs/",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,7 +8,6 @@
     "build": "next build",
     "start": "next dev",
     "lint": "next lint",
-    "export": "next build && next export",
     "deploy": "next build && next export && gh-pages -d out"
   },
   "dependencies": {
