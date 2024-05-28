@@ -1,6 +1,3 @@
-"use client";
-
-import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import logo from "@/assets/images/logo.png";
@@ -8,8 +5,8 @@ import logo from "@/assets/images/logo.png";
 export default function Navbar() {
   return (
     <>
-      <div className="Navbar fixed w-full md:flex lg:flex hidden align-center bg-white justify-center items-center">
-        <div className="flex w-5/6 justify-between pt-3 pb-3">
+      <div className="shadow-lg Navbar fixed w-full md:flex lg:flex hidden align-center bg-white justify-center items-center">
+        <div className="flex w-9/12 justify-between pt-3 pb-3">
           <div className="basis-2/4 flex justify-between pt-2 pb-2 items-center">
             <div className="w-auto m-0 p-0">
               <Image
@@ -40,8 +37,8 @@ export default function Navbar() {
         </div>
       </div>
 
-      <div className="Navbar md:hidden lg:hidden w-full fixed p-3">
-        <div className="flex justify-between items-center bg-white p-2 rounded-md">
+      <div className=" Navbar md:hidden lg:hidden w-full fixed p-3">
+        <div className="shadow-lg  flex justify-between items-center bg-white p-2 rounded-md">
           <Image
             src={logo}
             alt="Logo"
