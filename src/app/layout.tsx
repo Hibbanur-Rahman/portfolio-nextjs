@@ -34,7 +34,10 @@ export default function RootLayout({
         {children}
 
         {/* <!--========== flowbite cdn Link ==========--> */}
-        <script src="https://unpkg.com/flowbite@latest/dist/flowbite.js"></script>
+        <script 
+          src="https://unpkg.com/flowbite@latest/dist/flowbite.js" 
+          async
+        ></script>
       </body>
     </html>
   );
