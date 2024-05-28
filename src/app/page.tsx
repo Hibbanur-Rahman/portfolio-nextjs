@@ -208,7 +208,7 @@ export default function Home() {
             <p className="text-sm text-gray-500 dark:text-gray-400">
               This is some placeholder content the{" "}
               <strong className="font-medium text-gray-800 dark:text-white">
-                Profile tab's associated content
+                Profile tab associated content
               </strong>
               . Clicking another tab will toggle the visibility of this one for
               the next. The tab JavaScript swaps classes to control the content
@@ -224,7 +224,7 @@ export default function Home() {
             <p className="text-sm text-gray-500 dark:text-gray-400">
               This is some placeholder content the{" "}
               <strong className="font-medium text-gray-800 dark:text-white">
-                Dashboard tab's associated content
+                Dashboard tab associated content
               </strong>
               . Clicking another tab will toggle the visibility of this one for
               the next. The tab JavaScript swaps classes to control the content
@@ -240,7 +240,7 @@ export default function Home() {
             <p className="text-sm text-gray-500 dark:text-gray-400">
               This is some placeholder content the{" "}
               <strong className="font-medium text-gray-800 dark:text-white">
-                Settings tab's associated content
+                Settings tab associated content
               </strong>
               . Clicking another tab will toggle the visibility of this one for
               the next. The tab JavaScript swaps classes to control the content
@@ -256,7 +256,7 @@ export default function Home() {
             <p className="text-sm text-gray-500 dark:text-gray-400">
               This is some placeholder content the{" "}
               <strong className="font-medium text-gray-800 dark:text-white">
-                Contacts tab's associated content
+                Contacts tab associated content
               </strong>
               . Clicking another tab will toggle the visibility of this one for
               the next. The tab JavaScript swaps classes to control the content
