@@ -959,7 +959,7 @@ export default function Home() {
                 <i className="bi bi-instagram m-0 p-0 text-2xl"></i>
               </div>
             </div>
-            <p className="m-0 p-0 text-slate-700 w-auto">© copy rights reserved 2024 to Hibbanur Rahman</p>
+            <p className="m-0 p-0 text-slate-700 w-auto mt-8 md:mt-0 lg:mt-0 ">© copy rights reserved 2024 to Hibbanur Rahman</p>
           </div>
         </div>
       </section>
