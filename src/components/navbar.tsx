@@ -16,24 +16,26 @@ export default function Navbar() {
                 style={{ height: "35px", width: "80px" }}
               />
             </div>
-            <Link href="/home" className="w-auto">
+            <Link href="/#hero-section" className="w-auto">
               <p className="">Home</p>
             </Link>
-            <Link href="/about" className="w-auto">
+            <Link href="/#about-us" className="w-auto">
               <p className="">About</p>
             </Link>
-            <Link href="/project" className="w-auto">
+            <Link href="/#project" className="w-auto">
               <p className="">Project</p>
             </Link>
-            <Link href="/testimonial" className="w-auto">
-              <p className="">Testimonial</p>
+            <Link href="/#service" className="w-auto">
+              <p className="">Service</p>
             </Link>
           </div>
 
-          <div className="cursor-pointer hover:animate-bounce hover:bg-slate-500 hover:transition-all hover:ease-in-out ease-in-out hover:duration-400 duration-400 transition-all ps-4 pe-4 flex bg-zinc-300 rounded-md w-auto items-center justify-center">
-            <p className="w-auto font-medium">Contact</p>
-            <i className="bi bi-arrow-up-right w-auto ps-1"></i>
-          </div>
+          <Link href="/contact" className="w-auto">
+            <div className="cursor-pointer hover:animate-bounce hover:bg-slate-500 hover:transition-all hover:ease-in-out ease-in-out hover:duration-400 duration-400 transition-all ps-4 pe-4 flex bg-zinc-300 rounded-md w-auto items-center justify-center">
+              <p className="w-auto font-medium">Contact</p>
+              <i className="bi bi-arrow-up-right w-auto ps-1"></i>
+            </div>
+          </Link>
         </div>
       </div>
 
@@ -53,8 +55,6 @@ export default function Navbar() {
           >
             <i className="bi bi-list text-5xl m-0 p-0"></i>
           </button>
-
-        
 
           {/* <!-- drawer component --> */}
           <div

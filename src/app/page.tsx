@@ -69,7 +69,7 @@ export default function Home() {
       </section>
 
       {/**================ Services section start ==================*/}
-      <div className="m-0 p-0 md:w-9/12 lg:w-9/12 w-11/12 mt-8 md:mt-0 lg:mt-0 ">
+      <div className="m-0 p-0 md:w-9/12 lg:w-9/12 w-11/12 mt-8 md:mt-0 lg:mt-0 " id="service">
         <h1 className="text-5xl font-bold w-auto ">Provide Services 🛠</h1>
         <div className="flex flex-wrap w-full mt-16">
           <div className="md:w-2/6 lg:w-2/6 sm:w-full  md:p-2 lg:p-2 ps-0 mt-4 mb-4 ">
