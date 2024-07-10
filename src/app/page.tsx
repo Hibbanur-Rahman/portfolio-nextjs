@@ -43,7 +43,7 @@ export default function Home() {
       <section className="flex items-center justify-center" id="hero-section">
         <div className=" flex md:flex-row lg:flex-row flex-col md:w-9/12 lg:w-9/12 w-11/12 items-center min-h-screen md:pt-0 lg:pt-0 pt-16">
           <div className="md:w-1/2 lg:w-1/2 w-full">
-            <h1 className="text-6xl font-semibold mb-12">
+            <h1 className="text-6xl font-semibold mb-12 text-black">
               👋 Hey there, It&#39;s
               <br />
               Hibbanur Rahman
@@ -70,7 +70,7 @@ export default function Home() {
 
       {/**================ Services section start ==================*/}
       <div className="m-0 p-0 md:w-9/12 lg:w-9/12 w-11/12 mt-8 md:mt-0 lg:mt-0 " id="service">
-        <h1 className="text-5xl font-bold w-auto ">Provide Services 🛠</h1>
+        <h1 className="text-5xl font-bold w-auto text-black">Provide Services 🛠</h1>
         <div className="flex flex-wrap w-full mt-16">
           <div className="md:w-2/6 lg:w-2/6 sm:w-full  md:p-2 lg:p-2 ps-0 mt-4 mb-4 ">
             <div className="card flex flex-col justify-center items-center border rounded-lg shadow-xl hover:shadow-2xl transition-all ease-in-out duration-200 hover:duration-200 bg-white p-8">
@@ -80,7 +80,7 @@ export default function Home() {
                 className="mb-8 "
                 style={{ height: "70px", width: "70px" }}
               />
-              <h4 className="text-2xl text-center font-medium mb-4">
+              <h4 className="text-2xl text-center font-medium mb-4 text-gray-950">
                 UX,UI Design
               </h4>
 
@@ -98,7 +98,7 @@ export default function Home() {
                 className="mb-8"
                 style={{ height: "70px", width: "70px" }}
               />
-              <h4 className="text-2xl text-center font-medium mb-4">
+              <h4 className="text-2xl text-center font-medium mb-4 text-gray-950">
                 Web Design
               </h4>
 
@@ -116,7 +116,7 @@ export default function Home() {
                 className="mb-8"
                 style={{ height: "70px", width: "70px" }}
               />
-              <h4 className="text-2xl text-center font-medium mb-4">
+              <h4 className="text-2xl text-center font-medium mb-4 text-gray-950">
                 UX Research
               </h4>
 
@@ -134,7 +134,7 @@ export default function Home() {
                 className="mb-8"
                 style={{ height: "70px", width: "70px" }}
               />
-              <h4 className="text-2xl text-center font-medium mb-4">
+              <h4 className="text-2xl text-center font-medium mb-4 text-gray-950">
                 Print Design
               </h4>
 
@@ -152,7 +152,7 @@ export default function Home() {
                 className="mb-8"
                 style={{ height: "70px", width: "70px" }}
               />
-              <h4 className="text-2xl text-center font-medium mb-4">
+              <h4 className="text-2xl text-center font-medium mb-4 text-gray-950">
                 Social Design
               </h4>
 
@@ -168,7 +168,7 @@ export default function Home() {
       {/**================ Projects section start ==================*/}
       <section className="flex items-center justify-center" id="project">
         <div className="m-0 p-0 md:w-9/12 lg:w-9/12 w-11/12 mt-8 md:mt-0 lg:mt-0">
-          <h1 className=" mt-4 mb-8 text-5xl font-bold text-center">
+          <h1 className=" mt-4 mb-8 text-5xl font-bold text-center text-black">
             Latest projects
           </h1>
 
@@ -255,7 +255,7 @@ export default function Home() {
                       <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">
                         Full Stack
                       </span>{" "}
-                      <h5 className="text-2xl mt-4">
+                      <h5 className="text-2xl mt-4 text-gray-950 ">
                         NextGenEdu: E-learning platform
                       </h5>
                       <p className="text-slate-700 font-light mt-4">
@@ -280,7 +280,7 @@ export default function Home() {
                       <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">
                         Full Stack
                       </span>{" "}
-                      <h5 className="text-2xl mt-4">
+                      <h5 className="text-2xl mt-4 text-gray-950">
                         NextGenEdu: E-learning platform
                       </h5>
                       <p className="text-slate-700 font-light mt-4">
@@ -305,7 +305,7 @@ export default function Home() {
                       <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">
                         Full Stack
                       </span>{" "}
-                      <h5 className="text-2xl mt-4">
+                      <h5 className="text-2xl mt-4 text-gray-950">
                         NextGenEdu: E-learning platform
                       </h5>
                       <p className="text-slate-700 font-light mt-4">
@@ -330,7 +330,7 @@ export default function Home() {
                       <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">
                         Full Stack
                       </span>{" "}
-                      <h5 className="text-2xl mt-4">
+                      <h5 className="text-2xl mt-4 text-gray-950">
                         NextGenEdu: E-learning platform
                       </h5>
                       <p className="text-slate-700 font-light mt-4">
@@ -364,7 +364,7 @@ export default function Home() {
                       <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">
                         Full Stack
                       </span>{" "}
-                      <h5 className="text-2xl mt-4">
+                      <h5 className="text-2xl mt-4 text-gray-950">
                         NextGenEdu: E-learning platform
                       </h5>
                       <p className="text-slate-700 font-light mt-4">
@@ -398,7 +398,7 @@ export default function Home() {
                       <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">
                         Full Stack
                       </span>{" "}
-                      <h5 className="text-2xl mt-4">
+                      <h5 className="text-2xl mt-4 text-gray-950">
                         NextGenEdu: E-learning platform
                       </h5>
                       <p className="text-slate-700 font-light mt-4">
@@ -423,7 +423,7 @@ export default function Home() {
                       <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">
                         Full Stack
                       </span>{" "}
-                      <h5 className="text-2xl mt-4">
+                      <h5 className="text-2xl mt-4 text-gray-950">
                         NextGenEdu: E-learning platform
                       </h5>
                       <p className="text-slate-700 font-light mt-4">
@@ -457,7 +457,7 @@ export default function Home() {
                       <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">
                         Full Stack
                       </span>{" "}
-                      <h5 className="text-2xl mt-4">
+                      <h5 className="text-2xl mt-4 text-gray-950">
                         NextGenEdu: E-learning platform
                       </h5>
                       <p className="text-slate-700 font-light mt-4">
@@ -481,7 +481,7 @@ export default function Home() {
       >
         <div className="m-0  md:w-9/12 lg:w-9/12 w-11/12 mt-8 md:mt-0 lg:mt-0 shadow-2xl rounded-2xl bg-white p-12">
           <h3
-            className=" mb-8 text-4xl font-bold text-clip w-auto"
+            className=" mb-8 text-4xl font-bold text-clip w-auto text-black"
             id="heading"
           >
             {" "}
@@ -492,12 +492,12 @@ export default function Home() {
               <p className="text-xl font-medium border-b-2 pb-3 text-slate-700">
                 Work Experience
               </p>
-              <h5 className="m-0 p-0 text-xl font-semibold mt-8 mb-3">
+              <h5 className="m-0 p-0 text-xl font-semibold mt-8 mb-3 text-gray-800">
                 Meity Project MANUU
               </h5>
               <p className="text-sm text-slate-700">Web developer Intern</p>
               <p className="text-sm text-slate-700">March 2024 - current</p>
-              <h5 className="m-0 p-0 text-xl font-semibold mt-8 mb-3">
+              <h5 className="m-0 p-0 text-xl font-semibold mt-8 mb-3 text-gray-800">
                 Meity Project MANUU
               </h5>
               <p className="text-sm text-slate-700">Web developer Intern</p>
@@ -509,7 +509,7 @@ export default function Home() {
               <p className="text-xl font-medium border-b-2 pb-3 text-slate-700">
                 Education
               </p>
-              <h5 className="m-0 p-0 text-xl font-semibold mt-8 mb-3">
+              <h5 className="m-0 p-0 text-xl font-semibold mt-8 mb-3 text-gray-800">
                 Maulana Azad National Urdu University
               </h5>
               <p className="text-sm text-slate-700">Hyderabad, Telangana</p>
@@ -519,7 +519,7 @@ export default function Home() {
               <p className="text-sm text-slate-700">August 2021 - April 2025</p>
               <p className="text-sm text-slate-700">CGPA:- 9.08 out of 10</p>
 
-              <h5 className="m-0 p-0 text-xl font-semibold mt-8 mb-3">
+              <h5 className="m-0 p-0 text-xl font-semibold mt-8 mb-3 text-gray-800">
                 Al-Irfan Residential School
               </h5>
               <p className="text-sm text-slate-700">Aurangabad, Maharastra</p>
@@ -529,7 +529,7 @@ export default function Home() {
               <p className="text-sm text-slate-700">March 2019 - April 2021</p>
               <p className="text-sm text-slate-700">Percentage: 85%</p>
 
-              <h5 className="m-0 p-0 text-xl font-semibold mt-8 mb-3">
+              <h5 className="m-0 p-0 text-xl font-semibold mt-8 mb-3 text-gray-800">
                 +2 M.K.J High School
               </h5>
               <p className="text-sm text-slate-700">Darbhanga, Bihar</p>
