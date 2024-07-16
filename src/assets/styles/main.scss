@@ -42,5 +42,28 @@ main{
 .active-ctm{
     left: 0 !important;
     transition: all 0.3s ease-in-out;
-
 }
+
+.image-box {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .image-box img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    transition: all 0.9s ease-in-out;
+
+  }
+  
+  .image-box img:hover {
+    transform: translateY(-50%);
+    transition: all 0.9s ease-in-out ;
+  }
+  

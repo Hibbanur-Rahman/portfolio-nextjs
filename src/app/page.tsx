@@ -36,6 +36,12 @@ import nextjsLogo from "../assets/images/nextjslogo.png";
 import nextjsSvgLogo from "../assets/images/nextjs-logo.svg";
 import typeScriptLogo from "../assets/images/typeScriptlogo.png";
 import phpLogo from "../assets/images/PHP-logo.svg";
+
+import ProjectImage1 from "../assets/images/projectImg-1.png";
+import ProjectImage2 from "../assets/images/projectImg-2.png";
+import ProjectImage3 from "../assets/images/projectImg-3.png";
+import ProjectImage4 from "../assets/images/projectImg-4.png";
+import Link from "next/link";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between pt-20">
@@ -69,8 +75,13 @@ export default function Home() {
       </section>
 
       {/**================ Services section start ==================*/}
-      <div className="m-0 p-0 md:w-9/12 lg:w-9/12 w-11/12 mt-8 md:mt-0 lg:mt-0 " id="service">
-        <h1 className="text-5xl font-bold w-auto text-black">Provide Services 🛠</h1>
+      <div
+        className="m-0 p-0 md:w-9/12 lg:w-9/12 w-11/12 mt-8 md:mt-0 lg:mt-0 "
+        id="service"
+      >
+        <h1 className="text-5xl font-bold w-auto text-black">
+          Provide Services 🛠
+        </h1>
         <div className="flex flex-wrap w-full mt-16">
           <div className="md:w-2/6 lg:w-2/6 sm:w-full  md:p-2 lg:p-2 ps-0 mt-4 mb-4 ">
             <div className="card flex flex-col justify-center items-center border rounded-lg shadow-xl hover:shadow-2xl transition-all ease-in-out duration-200 hover:duration-200 bg-white p-8">
@@ -242,104 +253,126 @@ export default function Home() {
             >
               <div className="w-full flex flex-wrap">
                 <div className="sm:w-full md:w-2/6 lg:w-2/6  xl:w-2/6 p-2">
-                  <div className="card rounded-xl border shadow-lg p-4 bg-white ">
-                    <div className="m-0 p-0 h-80 border rounded-lg overflow-hidden shadow-sm ">
-                      <Image
-                        src={project1}
-                        alt=""
-                        className="m-0 p-0 h-80 border rounded-lg overflow-hidden  hover:scale-125 transition-all duration-200"
-                      />
-                    </div>
+                  <Link
+                    href="https://hibbanur-rahman.me/NextGenEdu-frontend/"
+                    target="blank"
+                  >
+                    <div className="card rounded-xl border shadow-lg p-4 bg-white ">
+                      <div className="m-0 p-0 h-80 border rounded-lg overflow-hidden shadow-sm image-box">
+                        <Image
+                          src={ProjectImage1}
+                          alt=""
+                          className="m-0 p-0 h-full border rounded-lg overflow-hidden hover:move-image transition-all"
+                        />
+                      </div>
 
-                    <div className="content mt-4">
-                      <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">
-                        Full Stack
-                      </span>{" "}
-                      <h5 className="text-2xl mt-4 text-gray-950 ">
-                        NextGenEdu: E-learning platform
-                      </h5>
-                      <p className="text-slate-700 font-light mt-4">
-                        Develop a cutting-edge web-based e-learning platform.
-                        Integrate the MERN Stack enhance user engagement and
-                        experience.
-                      </p>
+                      <div className="content mt-4">
+                        <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">
+                          Full Stack
+                        </span>{" "}
+                        <h5 className="text-2xl mt-4 text-gray-950 ">
+                          NextGenEdu: E-learning platform
+                        </h5>
+                        <p className="text-slate-700 font-light mt-4">
+                          Develop a cutting-edge web-based e-learning platform.
+                          Integrate the MERN Stack enhance user engagement and
+                          experience.
+                        </p>
+                      </div>
                     </div>
-                  </div>
+                  </Link>
+                </div>
+
+                <div className="sm:w-full md:w-2/6 lg:w-2/6  xl:w-2/6 p-2">
+                  <Link
+                    href="https://hibbanur-rahman.me/FarmOnHand/"
+                    target="blank"
+                  >
+                    <div className="card rounded-xl border shadow-lg p-4 bg-white ">
+                      <div className="m-0 p-0 h-80 border rounded-lg overflow-hidden shadow-sm image-box">
+                        <Image
+                          src={ProjectImage2}
+                          alt=""
+                          className="m-0 p-0 h-full border rounded-lg overflow-hidden hover:move-image transition-all"
+                        />
+                      </div>
+
+                      <div className="content mt-4">
+                        <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">
+                          Full Stack
+                        </span>{" "}
+                        <h5 className="text-2xl mt-4 text-gray-950 ">
+                          Farm on Hand: E-commerce for Farmers
+                        </h5>
+                        <p className="text-slate-700 font-light mt-4">
+                          Resolve the absence of a direct channel between
+                          farmers and end consumers or vendors further
+                          exacerbates issues through e-commerce MERN Stack app.
+                        </p>
+                      </div>
+                    </div>
+                  </Link>
                 </div>
                 <div className="sm:w-full md:w-2/6 lg:w-2/6  xl:w-2/6 p-2">
-                  <div className="card rounded-xl border shadow-lg p-4 bg-white ">
-                    <div className="m-0 p-0 h-80 border rounded-lg overflow-hidden shadow-sm ">
-                      <Image
-                        src={project1}
-                        alt=""
-                        className="m-0 p-0 h-80 border rounded-lg overflow-hidden  hover:scale-125 transition-all duration-200"
-                      />
-                    </div>
+                  <Link
+                    href="https://hibbanur-rahman.me/hotel-booking-react/"
+                    target="blank"
+                  >
+                    <div className="card rounded-xl border shadow-lg p-4 bg-white ">
+                      <div className="m-0 p-0 h-80 border rounded-lg overflow-hidden shadow-sm image-box">
+                        <Image
+                          src={ProjectImage3}
+                          alt=""
+                          className="m-0 p-0 h-full border rounded-lg overflow-hidden hover:move-image transition-all"
+                        />
+                      </div>
 
-                    <div className="content mt-4">
-                      <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">
-                        Full Stack
-                      </span>{" "}
-                      <h5 className="text-2xl mt-4 text-gray-950">
-                        NextGenEdu: E-learning platform
-                      </h5>
-                      <p className="text-slate-700 font-light mt-4">
-                        Develop a cutting-edge web-based e-learning platform.
-                        Integrate the MERN Stack enhance user engagement and
-                        experience.
-                      </p>
+                      <div className="content mt-4">
+                        <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">
+                          Full Stack
+                        </span>{" "}
+                        <h5 className="text-2xl mt-4 text-gray-950 ">
+                          Hotel-Booking MERN Stack
+                        </h5>
+                        <p className="text-slate-700 font-light mt-4">
+                          The platform allows users to search for hotels, view
+                          detailed information, check room availability, and
+                          make reservations securely. It also includes user
+                          authentication, a personalized dashboard for managing
+                          bookings, and an admin panel for hotel management.
+                        </p>
+                      </div>
                     </div>
-                  </div>
+                  </Link>
                 </div>
                 <div className="sm:w-full md:w-2/6 lg:w-2/6  xl:w-2/6 p-2">
-                  <div className="card rounded-xl border shadow-lg p-4 bg-white ">
-                    <div className="m-0 p-0 h-80 border rounded-lg overflow-hidden shadow-sm ">
-                      <Image
-                        src={project1}
-                        alt=""
-                        className="m-0 p-0 h-80 border rounded-lg overflow-hidden  hover:scale-125 transition-all duration-200"
-                      />
-                    </div>
+                  <Link href="https://humzabaan.netlify.app/" target="blank">
+                    <div className="card rounded-xl border shadow-lg p-4 bg-white ">
+                      <div className="m-0 p-0 h-80 border rounded-lg overflow-hidden shadow-sm image-box">
+                        <Image
+                          src={ProjectImage4}
+                          alt=""
+                          className="m-0 p-0 h-full border rounded-lg overflow-hidden hover:move-image transition-all"
+                        />
+                      </div>
 
-                    <div className="content mt-4">
-                      <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">
-                        Full Stack
-                      </span>{" "}
-                      <h5 className="text-2xl mt-4 text-gray-950">
-                        NextGenEdu: E-learning platform
-                      </h5>
-                      <p className="text-slate-700 font-light mt-4">
-                        Develop a cutting-edge web-based e-learning platform.
-                        Integrate the MERN Stack enhance user engagement and
-                        experience.
-                      </p>
+                      <div className="content mt-4">
+                        <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">
+                          Full Stack
+                        </span>{" "}
+                        <h5 className="text-2xl mt-4 text-gray-950 ">
+                          Humzabaan:E-learning for Urdu
+                        </h5>
+                        <p className="text-slate-700 font-light mt-4">
+                          This website, developed with ReactJS, is called
+                          Hamzabaan. It is designed for students learning Urdu
+                          through this app. Additionally, parents can monitor
+                          and guide their children's progress based on their
+                          performance.
+                        </p>
+                      </div>
                     </div>
-                  </div>
-                </div>
-                <div className="sm:w-full md:w-2/6 lg:w-2/6  xl:w-2/6 p-2">
-                  <div className="card rounded-xl border shadow-lg p-4 bg-white ">
-                    <div className="m-0 p-0 h-80 border rounded-lg overflow-hidden shadow-sm ">
-                      <Image
-                        src={project1}
-                        alt=""
-                        className="m-0 p-0 h-80 border rounded-lg overflow-hidden  hover:scale-125 transition-all duration-200"
-                      />
-                    </div>
-
-                    <div className="content mt-4">
-                      <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300">
-                        Full Stack
-                      </span>{" "}
-                      <h5 className="text-2xl mt-4 text-gray-950">
-                        NextGenEdu: E-learning platform
-                      </h5>
-                      <p className="text-slate-700 font-light mt-4">
-                        Develop a cutting-edge web-based e-learning platform.
-                        Integrate the MERN Stack enhance user engagement and
-                        experience.
-                      </p>
-                    </div>
-                  </div>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -959,7 +992,9 @@ export default function Home() {
                 <i className="bi bi-instagram m-0 p-0 text-2xl"></i>
               </div>
             </div>
-            <p className="m-0 p-0 text-slate-700 w-auto mt-8 md:mt-0 lg:mt-0 ">© copy rights reserved 2024 to Hibbanur Rahman</p>
+            <p className="m-0 p-0 text-slate-700 w-auto mt-8 md:mt-0 lg:mt-0 ">
+              © copy rights reserved 2024 to Hibbanur Rahman
+            </p>
           </div>
         </div>
       </section>
