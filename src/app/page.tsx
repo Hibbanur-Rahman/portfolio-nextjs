@@ -367,7 +367,7 @@ export default function Home() {
                           This website, developed with ReactJS, is called
                           Hamzabaan. It is designed for students learning Urdu
                           through this app. Additionally, parents can monitor
-                          and guide their children's progress based on their
+                          and guide their children&apos;s progress based on their
                           performance.
                         </p>
                       </div>
